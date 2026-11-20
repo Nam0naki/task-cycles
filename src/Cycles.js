@@ -24,15 +24,11 @@ export function rangeSum(start, end) {
 */
 export function iterationCount(a) {
  let count = 0;
-  let current = a;
-
-  while (current / 2 > 0.1) {
-    current /= 2;
+  while (num / 2 > 0.1) {
+    num /= 2;
     count++;
   }
-
   return count;
-
 }
 
 /*
