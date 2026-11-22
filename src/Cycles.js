@@ -23,9 +23,9 @@ export function rangeSum(start, end) {
   и верните количество потребовавшихся итераций (т.е. сколько раз пришлось выполнить деление).
 */
 export function iterationCount(a) {
- let count = 0;
-  while (num / 2 > 0.1) {
-    num /= 2;
+  let count = 0;
+  while (a > 0.1) {
+    a /= 2;
     count++;
   }
   return count;
